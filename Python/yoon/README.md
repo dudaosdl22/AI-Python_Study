@@ -177,7 +177,7 @@ print(f"Hello I'm {my_name}, I have {my_age} years in the earth, {my_color_eyes}
 <pre>
 <code>
 def make_juice(fruit):
-  return f"{fruit}+!"
+  return f"{fruit} +!"
 
 def add_ice(juice):
   return f"{juice}+@"
