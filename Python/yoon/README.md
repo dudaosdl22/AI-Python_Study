@@ -15,8 +15,8 @@
     print()
     start with def + function
     (ex)
-    <pre>
-    <code>
+<pre>
+<code>
     {
         def say_hello:
             print("hello how are you?")
@@ -25,8 +25,8 @@
 
     -> Hello how are you?
     }
-    </code>
-    </pre>
+</code>
+</pre>
 
     function()에서
     ()-> parameter: 문자열 X, variable 형식, function 안에서 쓸 수 있는 variable
@@ -34,8 +34,8 @@
     parameter는 함수로 전달하는 데이터를 저장하기 위한 palceholder일 뿐임
 
     (ex)
-    <pre>
-    <code>
+<pre>
+<code>
     {
         def say_hello(user_name):
             print("Hello", username, "how are you?")
@@ -48,13 +48,13 @@
         Hello lynn how are you?
         Hello lewis how are you?
     }
-    </code>
-    </pre>
+</code>
+</pre>
 
 *multi parameters*
     (ex)
-    <pre>
-    <code>
+<pre>
+<code>
     {
         def say_hello(user_name, user_age):
             print("Hello", user_name)
@@ -65,5 +65,5 @@
     -> Hello nico
        you are 12 years old
     }
-    </code>
-    </pre>
+</code>
+</pre>
