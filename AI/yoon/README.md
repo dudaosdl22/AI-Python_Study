@@ -342,10 +342,10 @@ print(t2)
 </code>
 </pre>
 
-<h2>torch<->numpy<h2>
+<h2>torch<->numpy</h2>
 
 * Torch Tensor(텐서)를 Numpy array(배열)로 변환 가능
-- numpy()
-- from_numpy()
+    - numpy()
+    - from_numpy()
 * (참고)
-- Tensor가 CPU상에 있다면 Numpy 배열은 메모리 공간을 공유하므로 하나가 변하면, 다른 하나도 변함
+    - Tensor가 CPU상에 있다면 Numpy 배열은 메모리 공간을 공유하므로 하나가 변하면, 다른 하나도 변함
