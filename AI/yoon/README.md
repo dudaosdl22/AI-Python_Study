@@ -144,8 +144,8 @@ print(x - y)
 print(torch.sub(x, y))
 print(x.sub(y))
 // 세 방법 모두 결과 동일
-</pre>
 </code>
+</pre>
 
 * torch.mul: 곱셈
 <pre>
@@ -155,8 +155,8 @@ y = torch.Tensor([[2, 4], [6, 8]])
 print(x * y)
 print(torch.mul(x, y))
 print(x.mul(y))
-</pre>
 </code>
+</pre>
 
 * torch.div: 나눗셈
 <pre>
@@ -166,8 +166,8 @@ y = torch.Tensor([[2, 4], [6, 8]])
 print(x / y)
 print(torch.div(x, y))
 print(x.div(y))
-</pre>
 </code>
+</pre>
 
 * torch.mm: 내적(dot product)
 <pre>
@@ -175,8 +175,8 @@ print(x.div(y))
 x = torch.Tensor([[1, 3], [5, 7]])
 y = torch.Tensor([[2, 4], [6, 8]])
 print(torch.mm(x, y))
-</pre>
 </code>
+</pre>
 
 <h2>인덱싱</h2>
 
@@ -184,8 +184,8 @@ print(torch.mm(x, y))
 <pre>
 <code>
 print(x[:, 1])
-</pre>
 </code>
+</pre>
 
 <h2>view</h2>
 
@@ -199,8 +199,8 @@ z = x.view(5, -1)
 print(x.size()) //4, 5행렬
 print(y.size()) //1차원 행렬
 print(z.size) //5, random 행렬 -> 5, 4 형태
-</pre>
 </code>
+</pre>
 
 <h2>item</h2>
 
@@ -211,8 +211,8 @@ x = torch.randn(1)
 print(x)
 print(x.item()) // x 안에 있는 실제값을 출력
 print(x.dtype)
-</pre>
 </code>
+</pre>
 
 * 스칼라값 하나만 존재해야 함
 <pre>
@@ -221,8 +221,8 @@ x = torch.randn(2) // element tensor 2개라서 오류
 print(x)
 print(x.item()) 
 print(x.dtype)
-</pre>
 </code>
+</pre>
 
 <h2>squeeze</h2>
 
@@ -235,8 +235,8 @@ print(tensor.shape)
 
 -> tensor([...])
    torch.Size([1, 3, 3])
-</pre>
 </code>
+</pre>
 
 <pre>
 <code>
@@ -247,8 +247,8 @@ print(t.shape)
 
 -> tensor([...])
    torch.Size([3, 3]) // 1, 3, 3에서 3, 3으로 차원 축소
-</pre>
 </code>
+</pre>
 
 <h2>unsqueeze</h2>
 
@@ -261,8 +261,8 @@ print(tensor.shape)
 
 -> tensor([...])
    torch.Size([1, 3, 3])
-</pre>
 </code>
+</pre>
 
 <pre>
 <code>
@@ -273,8 +273,8 @@ print(t.shape)
 
 -> tensor([...])
    torch.Size([1, 1, 3, 3]) // 1, 3, 3에서 1, 1, 3, 3으로 차원 증가
-</pre>
 </code>
+</pre>
 
 <h2>stack</h2>
 
@@ -290,8 +290,8 @@ print(torch.stack([x, y, z]))
 -> tensor([[1., 4.]
           [2., 5.]
           [3., 6.]])
-</pre>
 </code>
+</pre>
 
 <h2>cat</h2>
 
@@ -307,8 +307,8 @@ c = torch.cat((a, b), dim=0) //dim을 0으로 지정해줬기 때문에 그 단�
 
 print(c)
 print(c.size())
-</pre>
 </code>
+</pre>
 
 <h2>chunk</h2>
 
@@ -324,8 +324,8 @@ print(tensor)
 print(t1)
 print(t2)
 print(t3)
-</pre>
 </code>
+</pre>
 
 <h2>split</h2>
 
@@ -339,8 +339,8 @@ t1, t2= torch.split(tensor, 3, dim=1) // 하나의 텐서가 의미하는 크기
 print(tensor)
 print(t1)
 print(t2)
-</pre>
 </code>
+</pre>
 
 <h2>torch<->numpy<h2>
 
@@ -349,9 +349,3 @@ print(t2)
     - from_numpy()
 * (참고)
     - Tensor가 CPU상에 있다면 Numpy 배열은 메모리 공간을 공유하므로 하나가 변하면, 다른 하나도 변함
-
-<pre>
-<code>
-
-</pre>
-</code>
