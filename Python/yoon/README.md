@@ -1,7 +1,5 @@
 # AI-Python_Study
-<h2>
-3월 29, 30일 python 노마드
-</h2>
+<h2>3월 29, 30일 python 노마드</h2>
 <h3>
 variable
 </h3>
