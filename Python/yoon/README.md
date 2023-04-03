@@ -7,7 +7,7 @@
 * myAge: Camel Case 
 * 첫 시작 숫자, 특수문자 공백 X
 
-<h3>variable data type</h3>
+<h3>variable data type </h3>
 
 * 숫자
 * "문자"
