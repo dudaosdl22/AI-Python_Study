@@ -19,6 +19,7 @@ function
 </h3>
 print() <br>
 start with def + function <br>
+<pre>
 <code>
 def say_hello:
     print("hello how are you?")
@@ -27,6 +28,7 @@ def say_hello:
 
 -> Hello how are you?
 </code>
+</pre>
 function()에서 <br>
 ()-> parameter: 문자열 X, variable 형식, function 안에서 쓸 수 있는 variable <br>
 우리가 직접 데이터를 function에 넣고 function은 이 데이터를 받아 사용함 <br>
