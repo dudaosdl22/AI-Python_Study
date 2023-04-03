@@ -47,9 +47,7 @@ say_hello("lewis")
    Hello lewis how are you?
 </pre>
 </code>
-<h3>
-multi parameters
-</h3>
+<h3>multi parameters</h3>
 <pre>
 <code>
 def say_hello(user_name, user_age):
@@ -59,6 +57,4 @@ def say_hello(user_name, user_age):
 say_hello("nico", 12)
 
 -> Hello nico
-   you are 12 years old
-</pre>
-</code>
+   you are 12 years old </pre> </code>
