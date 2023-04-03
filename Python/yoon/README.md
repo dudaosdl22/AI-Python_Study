@@ -30,8 +30,8 @@
 
     function()에서
     ()-> parameter: 문자열 X, variable 형식, function 안에서 쓸 수 있는 variable
-    우리가 직접 데이터를 function에 넣고 function은 이 데이터를 받아 사용
-    parameter는 함수로 전달하는 데이터를 저장하기 위한 palceholder일 뿐
+    우리가 직접 데이터를 function에 넣고 function은 이 데이터를 받아 사용함
+    parameter는 함수로 전달하는 데이터를 저장하기 위한 palceholder일 뿐임
 
     (ex)
     <pre>
