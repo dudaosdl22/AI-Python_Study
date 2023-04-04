@@ -98,15 +98,25 @@ print(x)
 <img src="3.png"/>
 
  ### 인공 뉴런(Artificial Neuron)
-</br></t>- 노드(Node)와 엣지(Edge)로 표현
+</br>- 노드(Node)와 엣지(Edge)로 표현
  * 하나의 노드안에서 입력(Inputs)와 가중치(Weights)를 곱하고 더하는 선형(Linear)계산
  * 활성화 함수(Activation Function) 통과를 모두 포함
- 
-</t></br>- 인공 신경망(Artificial Neural Network)
+
+</br>- 인공 신경망(Artificial Neural Network)
  * 여러 개의 인공뉴런들이 모여 연결된 형태
  * 뉴런들이 모인 하나의 단위를 층(Layer)이라고 하고, 여러 층(Layer)으로 이루어질 수 있음
  * ex) 입력층(Input Layer), 은닉층(Hidden Layer), 출력층(Output Layer)
-
 </br>
+
+## 완전 연결 계층(Fully-connected Layer)
+
+ - ***모든 노드들이 서로 연결*** </b>된 신경망
+ - Dense Layer라고도 불림
+ - 아래 그림에서
+<br>- 입력 노드 3개<br>- 은닉층1 노드 4개<br>- 은닉층2 노드 4개<br>- 출력층 노드 1개<br>
+
+*** 총 3 * 4 * 4 * 1 = 48개의 선으로 연결 ***
+
+<img src="4.png"/>
 
 이미지 출처: https://wikidocs.net/164363, https://www.researchgate.net/figure/Graphical-representation-of-a-single-neuron-and-an-artificial-neural-network_fig6_326005988
