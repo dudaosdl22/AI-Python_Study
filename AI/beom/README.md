@@ -50,21 +50,21 @@ print(x)
 
 <h4>대표적인 프레임워크</h4>
 
-1. 텐서플로우(TensorFlow 2.X 버전)
+***1. 텐서플로우(TensorFlow 2.X 버전)***
 
  - Google, 핵심코드가 C++로 작성
  - 직관적인 고수준 API
  - 뛰어난 이식성 및 확장성, 즉 다양한 플랫폼으로 확장하여 활용 가능
-</t> - Tensorflow-Lite, TensorFlow Extened
+<br/></t> - Tensorflow-Lite, TensorFlow Extened
 
  - 진입장벽이 다소 높음
 
-2. 케라스(Keras)
+***2. 케라스(Keras)***
  - 직관적이고 쉬운 API
  - TensorFlow의 백엔드(Backend)활용
  - 동일한 코드로 CPU, GPU에서 실행 가능
 
-3. 파이토치(PyTorch)
+***3. 파이토치(PyTorch)***
  - Facebook
  - C/CUDA Backend 사용
  - 진입장벽이 낮음. 파이썬 문법과 유사
@@ -77,7 +77,7 @@ print(x)
 1. Image & Speech Recognition
 2. Medical Diagnosis
 3. Statistical Arbitarge
-<br/>
+
 <h4>신경망</h4>(Neural Network)
 <br/>
 
@@ -92,4 +92,20 @@ print(x)
 
 <br/>
 <img src="2.png"/>
-출처: https://wikidocs.net/164363
+
+<h4>인공뉴련 VS 인공 신경망</h4>
+
+<img src="3.png"/>
+
+ ### 인공 뉴런(Artificial Neuron)
+</t></br>- 노드(Node)와 엣지(Edge)로 표현
+ * 하나의 노드안에서 입력(Inputs)와 가중치(Weights)를 곱하고 더하는 선형(Linear)계산
+ * 활성화 함수(Activation Function) 통과를 모두 포함
+</t></br>- 인공 신경망(Artificial Neural Network)
+ * 여러 개의 인공뉴런들이 모여 연결된 형태
+ * 뉴런들이 모인 하나의 단위를 층(Layer)이라고 하고, 여러 층(Layer)으로 이루어질 수 있음
+ * ex) 입력층(Input Layer), 은닉층(Hidden Layer), 출력층(Output Layer)
+
+</br>
+
+이미지 출처: https://wikidocs.net/164363, https://www.researchgate.net/figure/Graphical-representation-of-a-single-neuron-and-an-artificial-neural-network_fig6_326005988
