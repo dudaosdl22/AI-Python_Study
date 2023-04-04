@@ -97,7 +97,7 @@ print(x)
 
 <img src="3.png"/>
 
- ### 인공 뉴런(Artificial Neuron)
+### 인공 뉴런(Artificial Neuron)
 </br>- 노드(Node)와 엣지(Edge)로 표현
  * 하나의 노드안에서 입력(Inputs)와 가중치(Weights)를 곱하고 더하는 선형(Linear)계산
  * 활성화 함수(Activation Function) 통과를 모두 포함
@@ -108,15 +108,33 @@ print(x)
  * ex) 입력층(Input Layer), 은닉층(Hidden Layer), 출력층(Output Layer)
 </br>
 
-## 완전 연결 계층(Fully-connected Layer)
+### 완전 연결 계층(Fully-connected Layer)
 
  - ***모든 노드들이 서로 연결*** </b>된 신경망
  - Dense Layer라고도 불림
  - 아래 그림에서
 <br>- 입력 노드 3개<br>- 은닉층1 노드 4개<br>- 은닉층2 노드 4개<br>- 출력층 노드 1개<br>
 
-*** 총 3 * 4 * 4 * 1 = 48개의 선으로 연결 ***
+총 3 * 4 * 4 * 1 = 48개의 선으로 연결
 
 <img src="4.png"/>
 
-이미지 출처: https://wikidocs.net/164363, https://www.researchgate.net/figure/Graphical-representation-of-a-single-neuron-and-an-artificial-neural-network_fig6_326005988
+### 신경망의 활용
+
+<h4>회귀(Regression)</h4>
+
+ - 잡음(Noise)을 포함한 학습 데이터로부터 어떤 <U>규칙을 찾고 연속된 값의 출력을 추정</U>
+ - 아래의 식을 만족하는 적절한 a(기울기), b(y절편)를 찾아야함
+
+<h6>Y = aX + b</h6>
+(X:입력, Y:출력, a:기울기, b:y절편)
+<br/>
+
+### 분류(Classification)
+
+ - 입력값에 따라 특정 범주(category)로 구분하는 문제 <U>분류 곡선(직선)</U>을 찾아야 함
+ - 범주의 개수에 따라서 이진 분류(Binary Classification), 로지스틱 회귀(Logistic Regression), 선형회귀와 비슷하지만, ***범주형 데이터를*** 분류하는 방향으로 선을 그음(면접점수, 실기점수, 필기점수에 따른 시험 합격 여부)
+ - ***다중 분류(Multi_class Classification)***
+ - 꽃잎 모양, 색깔에 따른 꽃의 종 분류
+<br>
+이미지 출처: https://wikidocs.net/164363, https://www.researchgate.net/figure/Graphical-representation-of-a-single-neuron-and-an-artificial-neural-network_fig6_326005988, https://cs231n.github.io/convolutional-networks/
