@@ -98,9 +98,10 @@ print(x)
 <img src="3.png"/>
 
  ### 인공 뉴런(Artificial Neuron)
-</t></br>- 노드(Node)와 엣지(Edge)로 표현
+</br></t>- 노드(Node)와 엣지(Edge)로 표현
  * 하나의 노드안에서 입력(Inputs)와 가중치(Weights)를 곱하고 더하는 선형(Linear)계산
  * 활성화 함수(Activation Function) 통과를 모두 포함
+ 
 </t></br>- 인공 신경망(Artificial Neural Network)
  * 여러 개의 인공뉴런들이 모여 연결된 형태
  * 뉴런들이 모인 하나의 단위를 층(Layer)이라고 하고, 여러 층(Layer)으로 이루어질 수 있음
