@@ -354,3 +354,4 @@ b = torch.from_numpy(a) #torch형태로 변환
 
 
 
+123
