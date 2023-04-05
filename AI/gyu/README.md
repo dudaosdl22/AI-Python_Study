@@ -1,5 +1,5 @@
 # AI스터디 파트1 [파이토치 기초]
-
+#dkanrjsk tntwjdgoTdma
 ## 개념정리1
 ### 1. 파이토치(PyTorch)
 + torch: 텐서를 생성하는 라이브러리
